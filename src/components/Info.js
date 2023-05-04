@@ -19,6 +19,9 @@ const Info = () => {
                           <i className="bi bi-chevron-compact-right">Decentralization</i></h3>
                         <p class="card-text g-4">
                         IPFS is a decentralized protocol that allows files to be stored and accessed from multiple nodes rather than relying on a single server.
+                        <br/>
+                        <br/>
+                        <br/>
                         </p>
                     </div>
                 </div>
@@ -35,6 +38,8 @@ const Info = () => {
                           </h3>
                         <p class="card-text g-4">
                             It  allows different versions of a file to be stored and accessed separately.Useful for tracking changes over time and collaborating on shared file.
+                            <br/>
+                            <br/>
                         </p>
                     </div>
                 </div>
@@ -50,6 +55,7 @@ const Info = () => {
                           <i className="bi bi-chevron-compact-right">Efficient Data Distribution</i></h3>
                         <p class="card-text g-4">
                         IPFS uses a content-addressed data model and a distributed hash table (DHT) to efficiently distribute files across the network.
+                        <br/>
                         <p></p>
                         </p>
                         
@@ -92,7 +98,9 @@ const Info = () => {
                           </h3>
                         <p class="card-text g-4">
                         IPFS uses cryptographic hashes to ensure that data is tamper-evident, meaning that any changes to the data can be detected.
-                            <p></p>
+                        <br/>
+                        <br/>
+                        <p></p>
                         </p>
                     </div>
                 </div>
@@ -108,6 +116,8 @@ const Info = () => {
                           <i className="bi bi-chevron-compact-right">Interoperability</i></h3>
                         <p class="card-text g-4">
                         IPFS is designed to be interoperable with other protocols and tools, enabling it to be used in conjunction with other decentralized technologies.
+                        <br/>
+                        <br/>
                         <p></p>
                         </p>
                         

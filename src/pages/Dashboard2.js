@@ -15,7 +15,7 @@ const Dashboard2 = () => {
                             With Supporting text below as a natural lead-in to additional content
                         </p>
                         {/* User page Link */}
-                        <Link to="/" className="btn btn-primary">Register Hospital</Link>
+                        <Link to="/login" className="btn btn-primary">Register Hospital</Link>
                     </div>
                 </div>
             </div>
