@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 const Dashboard2 = () => {
   return (
-    <div class="m-5 p-5">
+    <div class="container mt-5 pt-5">
         <div class="row m-5">
             <div class="col-sm-6 mb-3 mb-sm-0">
                 <div class="card">
@@ -15,7 +15,7 @@ const Dashboard2 = () => {
                             With Supporting text below as a natural lead-in to additional content
                         </p>
                         {/* User page Link */}
-                        <Link to="/login" className="btn btn-primary">Register Hospital</Link>
+                        <Link to="/register" className="btn btn-primary">Register</Link>
                     </div>
                 </div>
             </div>
@@ -30,13 +30,17 @@ const Dashboard2 = () => {
                             With Supporting text below as a natural lead-in to additional content
                         </p>
                         {/* Hospital/dashboard 2 Link */}
-                        <Link to="/" className="btn btn-primary">Prescribe</Link>
+                        <Link to="/login" className="btn btn-primary">Login</Link>
                     </div>
                 </div>
             </div>
 
         </div>
     
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <br/>
         <br/>
         <br/>

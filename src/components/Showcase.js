@@ -1,7 +1,6 @@
 import React from 'react'
 // import Navbar from '../components/Navbar'
 import {Link} from "react-router-dom"
-import photo from "../images/Kartik_Kapoor_photograph.jpg"
 import fund from "../images/fundamentals.svg"
 import sc from "../images/showcase.svg"
 

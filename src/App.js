@@ -14,9 +14,12 @@ import Footer from './components/Footer'
 // import FileUpload from "./pages/FileUpload";
 // import About from './pages/About'
 import Dashboard from './pages/Dashboard'
-import Register from './pages/Register'
-import Login from './pages/Login'
+import Register from './pages/register'
+import Login from './pages/login'
 import Dashboard2 from "./pages/Dashboard2";
+// import FileUpload from "./pages/FileUpload";
+import FileUpload from "./pages/FileUpload";
+import Prescribe from "./pages/prescribe";
 
 const App = () => {
   return (
@@ -26,13 +29,15 @@ const App = () => {
         <Routes>
         <Route exact path="/" element={<Home/>}/>
         
-        {/* <Route path="/user" element={<FileUpload account={account} provider={}/>}/> */}
+        {/* <Route path="/user" element={<FileUpload/>}/> */}
         <Route exact path="/dashboard" element={<Dashboard/>}/>
-        {/* <Route exact path="/user" element={<FileUpload account={account} provider={provider} contract={contract}/>} */}
+        
         <Route exact path="/register" element={<Register/>}/>
         <Route exact path="/login" element={<Login/>}/>
         {/* <Route exact path="/prescribe" element={<Prescribe account={account} provider={provider} contract={contract}/>}/> */}
         <Route exact path="/dashboard2" element={<Dashboard2/>}/>
+        <Route exact path="/user" element={<FileUpload/>}/>
+        <Route exact path="/prescribe" element={<Prescribe/>}/>
         </Routes>
     </Router>
     <Footer/>

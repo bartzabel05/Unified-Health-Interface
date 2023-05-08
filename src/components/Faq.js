@@ -2,7 +2,7 @@ import React from 'react'
 
 const Faq = () => {
   return (
-    <div className="bg-primary p-5">
+    <div className="bg-warning p-5">
     <section className="">
       <h1 className="text-center">Frequently Asked Questions</h1>
     <div class="accordion" id="accordionExample">

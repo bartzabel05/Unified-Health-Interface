@@ -3,19 +3,19 @@ import {Link} from 'react-router-dom'
 
 const Dashboard = () => {
   return (
-    <div class="m-5 p-5">
+    <div class="container mt-5 pt-5">
         <div class="row m-5">
             <div class="col-sm-6 mb-3 mb-sm-0">
                 <div class="card">
                     <div class="card-body">
                         <div class="card-title">
-                            Special Treatment Title
+                            Patients
                         </div>
                         <p class="card-text">
-                            With Supporting text below as a natural lead-in to additional content
+                            Click to Avail Patient Services
                         </p>
                         {/* User page Link */}
-                        <Link to="/" className="btn btn-primary">Go to User Login Page</Link>
+                        <Link to="/user" className="btn btn-primary">Go to Patient Page</Link>
                     </div>
                 </div>
             </div>
@@ -24,10 +24,10 @@ const Dashboard = () => {
                 <div class="card">
                     <div class="card-body">
                         <div class="card-title">
-                            Special Treatment Title
+                            Hospitals
                         </div>
                         <p class="card-text">
-                            With Supporting text below as a natural lead-in to additional content
+                            Click to Avail Hospital Services 
                         </p>
                         {/* Hospital/dashboard 2 Link */}
                         <Link to="/dashboard2" className="btn btn-primary">Go to Hospitals</Link>
@@ -51,7 +51,9 @@ const Dashboard = () => {
         <br/>
         <br/>
         <br/>
-        
+        <br/>
+        <br/>
+        <br/>
     </div>
 
 

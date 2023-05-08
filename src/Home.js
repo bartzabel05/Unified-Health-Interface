@@ -1,7 +1,7 @@
 import React from 'react'
 // import Navbar from '../components/Navbar'
 import Showcase from './components/Showcase'
-import Team from './components/Team'
+// import Team from './components/Team'
 import Info from './components/Info'
 import Faq from './components/Faq'
 import un from './images/undraw_nakamoto_-2-iv6.svg'
